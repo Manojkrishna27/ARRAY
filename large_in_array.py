@@ -9,6 +9,6 @@ def largest_element_array(arr):
 arr=[2,1,3,5]
 print(largest_element_array(arr))
 
-# build in function
+# build in functions
 arr=[2,1,3,5]
 print(max(arr)) 
