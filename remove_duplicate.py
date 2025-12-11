@@ -1,6 +1,6 @@
 def removeduplicate(arr):
     n=len(arr)
-    result=set([]) # with use of set we can remove the duplicate because set does not contain any duplicates
+    result=set([]) # with use of set we can remove the duplicate because set does not contain any duplicates values
     
     for i in range(n):
 
