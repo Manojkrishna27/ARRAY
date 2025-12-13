@@ -4,7 +4,7 @@ def rotate_a_array_by_k(arr,k):
     k=k%n     # doing modulus for handling large k rotate
     for i in range(k):    # loop run k time
 
-        first=arr[0]   # take first
+        first=arr[0]   # take first element
         for j in range(n-1):
             arr[j]=arr[j+1] # traversal 
         arr[n-1]=first  # add first
