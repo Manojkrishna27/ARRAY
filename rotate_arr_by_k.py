@@ -7,7 +7,7 @@ def rotate_a_array_by_k(arr,k):
         first=arr[0]   # take first element
         for j in range(n-1):
             arr[j]=arr[j+1] # traversal 
-        arr[n-1]=first  # add first
+        arr[n-1]=first  # add first at last
     return arr
 arr=[1,2,4,3,5,6]
 print(rotate_a_array_by_k(arr,2))
