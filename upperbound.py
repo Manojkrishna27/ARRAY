@@ -15,7 +15,7 @@ def upperbound(arr,target):
             high=mid-1      #left
         else:
            low=mid+1        # right
-    return ans              # returns index value
-arr=[1,3,4,5]
+    return ans              # returns index value of first occurence
+arr=[1,3,3,5,6,7]
 target=2    
 print(upperbound(arr,target))
