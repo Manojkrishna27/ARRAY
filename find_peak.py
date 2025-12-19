@@ -11,6 +11,6 @@ def find_element(arr):
             low=mid+1
         else:
             high=mid
-    return low # or high both gives same index
+    return low # or high both gives same index of value peak value
 arr=[1,2,3,4,5,6,7,8,5,1]
 print(find_element(arr)) 
