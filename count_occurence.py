@@ -1,3 +1,4 @@
+"""You are given a sorted array of integers arr and an integer target. Your task is to determine how many times target appears in arr."""
 def countoccurence(arr,target):
     low=0
     n=len(arr)
