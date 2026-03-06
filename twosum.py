@@ -13,8 +13,8 @@ def twosum(num,target):
             left+=1
         else:
             right-=1
-num=[2,7,11,12]
-target=18
+num=[2,7,11,15]
+target=9
 print(twosum(num,target))
 
 # this is hashing method can used for all types of array
