@@ -10,5 +10,5 @@ def kadane(arr):
         if current_sum<0: # check negative 
             current_sum=0 # if negative reset
     return max_sub
-arr=[1,-2,3,4,-8]
+arr=[-2,1,-3,4,-1,2,1,-5,4]
 print(kadane(arr))
