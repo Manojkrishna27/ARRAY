@@ -1,7 +1,8 @@
 def max_min(arr):
+    # Two pointer 
     start=0
     end=len(arr)-1
-    new_array=[]
+    new_array=[] 
     while start<=end:
 
         if start!=end:
@@ -15,5 +16,5 @@ def max_min(arr):
        
        
     return new_array
-arr=[1,2,3,4,5,6,7]
+arr=[1,2,3,4,5,6,7]  # output =[7,1,6,2,5,3,4]
 print(max_min(arr))
