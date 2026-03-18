@@ -10,6 +10,8 @@ def can_attend_meeting(arr):
         current=arr[i][0]         
         previous=arr[i-1][1]
 
+    
+
         if current<previous:    # checking previous end and next starting if it is inside the range it will make the meeting overlap and return false
             return False
         

@@ -1,6 +1,6 @@
 def rotatearr(arr,k):
     
-    n=len(arr)-1
+    n=len(arr)
     k=k%n
     for i in range(k):
         last=arr[n-1]
