@@ -4,6 +4,7 @@ def roated_sorted(arr,target):
     right=len(arr)-1
 
     while left<=right:
+        
         mid=(left+right)//2
 
         if arr[mid]==target:
@@ -25,6 +26,7 @@ def roated_sorted(arr,target):
                     left=mid+1
                 else:
                     right=mid-1
+    
     return -1
 arr=[4,5,6,7,0,1,2]
 print(roated_sorted(arr,target=0))

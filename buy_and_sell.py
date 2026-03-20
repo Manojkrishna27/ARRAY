@@ -9,5 +9,5 @@ def buy_and_sell(arr):
         profit=i-min_price   # getting profit
         max_profit=max(max_profit,profit)  # comparing profit
     return max_profit         
-arr=[7,1,5,3,6,4]
+arr=[7,1,5,3,6,5]
 print(buy_and_sell(arr))
